@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+.background-body{
+    background-color: #ebebd3;
+    background: linear-gradient(to right, #eeca91, #ebebd3 );
+}
+/* Navbar */
+header{
+z-index: 99999;
+}
+/* LOGIN */
+.bg{
+    background-image: url(https://historia.nationalgeographic.com.es/medio/2021/03/11/coliseo-de-roma_1f63ec38_800x800.jpg);
+    background-size: cover;
+}
+/* GALERIA */
+.galeria img:hover{
+    transform:scale(1.2) ;
+    -webkit-transform:scale(1.2) ;
+    -moz-transform:scale(1.2) ;
+    -ms-transform:scale(1.2) ;
+    -o-transform:scale(1.2) ;
+}
+/*Correcion error de borde */
+nav div div div img {
+    width: 85px;
+    }
+.colornav , .dropdown-item , .card-body , .modal-header , .modal-footer {
+background-color:#fefae0!important;
+}
+
+.texticoncolor , .text-center-modal , .textchichen , .card-text , .intro , .leand-text , .list-text , .row-cols-1{
+color: #283618!important;
+}
+.textnav , .card-title , .titulo , .botones , .chichen1 , .modal-title{
+color: #BC6C25 !important;
+}
+.textnav:hover , .titulo:hover{
+opacity:100%!important;
+color: #606C38 !important;
+font-size:1.5rem;
+}
+.textdown{
+    color:#606C38;
+}
+.barra{
+    width: 10px;
+    height: 100px;
+    background-color: #283618;
+}
+textarea{
+    resize: none !important;
+}
+.botones , .galeria{
+    background-color: #e9b767;
+}
+.card{
+    border-color:#e9b767;
+    box-shadow: #BC6C25;
+}
+.list-group-item{
+    background-color:hsl(75, 18%, 61%);
+}
+.page-link{
+    color: #283618;
+    background-color: #849256;
+}
+.colorlogin , .modal-body{
+    background-color: #ebcea0;
+}
